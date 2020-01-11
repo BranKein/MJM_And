@@ -14,17 +14,17 @@ public class Info extends AppCompatActivity {
         setContentView(R.layout.info_page);
 
         TextView version = (TextView) findViewById(R.id.version);
-        version.setText(Integer.toString(GetVersion()));
+        version.setText(GetVersion());
 
     }
 
-    public int GetVersion(){
+    public String GetVersion(){
         PackageInfo pinfo = null;
         try{
             pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
         }
         catch (Exception e){}
-        return pinfo.versionCode;
+        return pinfo.versionName;
     }
 
 }
