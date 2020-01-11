@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1080_1920">
+
+    <TextView
+        android:id="@id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/con_t" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="350dp"
+        android:layout_height="560dp"
+        android:overScrollMode="never"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="4dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="1. What was the temperature of your room?"
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_main_service_Tem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:drawableTint="#FFFFFF"
+                        android:gravity="right|center_vertical"
+                        android:hint=" "
+                        android:inputType="text"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="'C"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            // Service_Tem
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="2. What was the relative humidity of your room?"
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_main_service_RH"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:gravity="right|center_vertical"
+                        android:hint=" "
+                        android:inputType="text"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            // Service_RH
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="3. Please enter your age."
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:gravity="right">
+
+                    <Spinner
+                        android:id="@+id/survey_page_age_spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:backgroundTint="#FFFFFF"
+                        android:entries="@array/age"
+                        android:gravity="right"
+                        android:popupElevation="16dp"
+                        android:scrollbarSize="6dp"
+                        android:spinnerMode="dialog" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            // Age
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Please select a gender."
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_Sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Male"
+                        android:text="Male"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Female"
+                        android:text="Female"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            // Sex
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Please write down the time of your flight so far."
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_main_flight_hour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="?attr/editTextBackground"
+                        android:backgroundTint="#FFFFFF"
+                        android:hint="         "
+                        android:inputType="text"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="hour"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            // Flight_hour
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Was the temperature of the capsule hotel proper?"
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_Tem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Tem_1"
+                        android:text="1. Too cold."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Tem_2"
+                        android:text="2. Little bit Cold"
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Tem_3"
+                        android:text="3. Appropriate."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Tem_4"
+                        android:text="4. Hot."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="Tem_5"
+                        android:text="5. Too hot."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            // Tem
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Was the humidity of the capsule hotel proper?"
+                    android:textColor="#C5C3C3"
+                    android:textSize="25sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_RH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="RH_1"
+                        android:text="1. Too humid."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="RH_2"
+                        android:text="2. Little bit humid."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="RH_3"
+                        android:text="3. Appropriate."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="RH_4"
+                        android:text="4. Dry."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#C5C3C3"
+                        android:onClick="RH_5"
+                        android:text="5. Too dry."
+                        android:textColor="#C5C3C3"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            // RH
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginEnd="2.5dp">
+
+                <Button
+                    android:id="@+id/button_main_insert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF"
+                    android:text="Apply"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+            // Submit
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

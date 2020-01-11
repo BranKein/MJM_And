@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.brankein13.mjm"
+4    android:versionCode="103"
+5    android:versionName="1.03" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:8:5-26:19
+14        android:allowBackup="true"
+14-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:9:9-35
+15        android:debuggable="true"
+16        android:icon="@drawable/mjm_ic"
+16-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:10:9-40
+17        android:label="@string/app_name"
+17-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:11:9-41
+18        android:roundIcon="@drawable/mjm_ic_round"
+18-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:12:9-51
+19        android:supportsRtl="true"
+19-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:13:9-35
+20        android:theme="@style/Theme.AppCompat.NoActionBar" >
+20-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:14:9-59
+21        <activity android:name="com.brankein13.mjm.MainActivity" />
+21-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:15:9-49
+21-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:15:19-47
+22        <activity android:name="com.brankein13.mjm.Info" />
+22-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:16:9-41
+22-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:16:19-39
+23        <activity android:name="com.brankein13.mjm.Content" />
+23-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:17:9-44
+23-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:17:19-42
+24        <activity android:name="com.brankein13.mjm.Title" >
+24-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:18:9-24:20
+24-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:18:19-40
+25            <intent-filter>
+25-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:19:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:17-68
+26-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:17-76
+28-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <meta-data
+32-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+33            android:name="android.arch.lifecycle.VERSION"
+33-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:26:13-58
+34            android:value="27.0.0-SNAPSHOT" />
+34-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:27:13-44
+35    </application>
+36
+37</manifest>
