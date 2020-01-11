@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">MJM</string>
-    <string name="version">version 1.03</string>
     <string name="contentpagetitle">Content</string>
     <string name="backbutton">Back</string>
     <string name="infopagetitle">About \'Majoongmul\'</string>
