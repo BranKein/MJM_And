@@ -16,9 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2aa193b-7c30-497a-a9f0-5c77f0b9e591" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Title.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_page.xml">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="458">
               <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
               <folding>
@@ -48,7 +45,7 @@
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -65,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Title.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +102,16 @@
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/survey_page_v2.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="380">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -177,13 +184,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/scrollbar_vertical_thumb.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/title_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/survey_page_v2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Content.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/info_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Info.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Title.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/survey_page_v2.xml" />
       </list>
     </option>
   </component>
@@ -206,7 +213,29 @@
           <expand>
             <path>
               <item name="MJM_And" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="MJM_And" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MJM_And" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="MJM_And" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="MJM_And" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -367,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578735171680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version check 고침, surveypage arrange">
+      <created>1578735725931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578735725931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +411,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.252349" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.252349" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -388,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4986577" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5100671" side_tool="true" weight="0.2905028" />
-      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.4899329" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.4899329" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" sideWeight="0.4966443" weight="0.95810056" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4899329" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="8" />
@@ -404,7 +440,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test push" />
+    <MESSAGE value="version check 고침, surveypage arrange" />
+    <option name="LAST_COMMIT_MESSAGE" value="version check 고침, surveypage arrange" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/UsersAdapter.java" />
@@ -519,14 +556,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/survey_page_v2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Content.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -554,15 +583,22 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Title.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_page.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Info.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_page.xml">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
           <folding>
@@ -570,14 +606,15 @@
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/brankein13/mjm/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/survey_page_v2.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">
