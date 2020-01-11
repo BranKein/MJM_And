@@ -17,7 +17,7 @@ public class Title extends AppCompatActivity {
         setContentView(R.layout.title_page);
 
         TextView version = (TextView) findViewById(R.id.version);
-        version.setText(Integer.toString(GetVersion()));
+        version.setText(GetVersion());
 
         Button titlebutton = (Button) findViewById(R.id.Titlebutton);
         titlebutton.setOnClickListener(new View.OnClickListener() {
@@ -27,18 +27,15 @@ public class Title extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
     }
 
-    public int GetVersion(){
+    public String GetVersion(){
         PackageInfo pinfo = null;
         try{
             pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
         }
         catch (Exception e){}
-        return pinfo.versionCode;
+        return pinfo.versionName;
     }
 
 }

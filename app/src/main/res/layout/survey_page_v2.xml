@@ -10,7 +10,6 @@
         android:id="@id/version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/version"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.014"
@@ -32,7 +31,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="350dp"
-        android:layout_height="560dp"
+        android:layout_height="590dp"
         android:overScrollMode="never"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollbarSize="4dp"
@@ -43,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68">
+        app:layout_constraintVertical_bias="0.73">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,7 +62,7 @@
                     android:gravity="center_vertical"
                     android:text="1. What was the temperature of your room?"
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -107,7 +106,7 @@
                     android:gravity="center_vertical"
                     android:text="2. What was the relative humidity of your room?"
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -150,7 +149,7 @@
                     android:gravity="center_vertical"
                     android:text="3. Please enter your age."
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -188,7 +187,7 @@
                     android:layout_height="wrap_content"
                     android:text="4. Please select a gender."
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_Sex"
@@ -232,7 +231,7 @@
                     android:layout_height="wrap_content"
                     android:text="5. Please write down the time of your flight so far."
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -275,7 +274,7 @@
                     android:layout_height="wrap_content"
                     android:text="6. Was the temperature of the capsule hotel proper?"
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_Tem"
@@ -289,7 +288,7 @@
                         android:onClick="Tem_1"
                         android:text="1. Too cold."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -298,7 +297,7 @@
                         android:onClick="Tem_2"
                         android:text="2. Little bit Cold"
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -307,7 +306,7 @@
                         android:onClick="Tem_3"
                         android:text="3. Appropriate."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -316,7 +315,7 @@
                         android:onClick="Tem_4"
                         android:text="4. Hot."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -325,7 +324,7 @@
                         android:onClick="Tem_5"
                         android:text="5. Too hot."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                 </RadioGroup>
 
@@ -344,7 +343,7 @@
                     android:layout_height="wrap_content"
                     android:text="7. Was the humidity of the capsule hotel proper?"
                     android:textColor="#C5C3C3"
-                    android:textSize="25sp" />
+                    android:textSize="22sp" />
 
                 <RadioGroup
                     android:id="@+id/radioGroup_RH"
@@ -358,7 +357,7 @@
                         android:onClick="RH_1"
                         android:text="1. Too humid."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -367,7 +366,7 @@
                         android:onClick="RH_2"
                         android:text="2. Little bit humid."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -376,7 +375,7 @@
                         android:onClick="RH_3"
                         android:text="3. Appropriate."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -385,7 +384,7 @@
                         android:onClick="RH_4"
                         android:text="4. Dry."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                     <android.support.v7.widget.AppCompatRadioButton
                         android:layout_width="wrap_content"
@@ -394,7 +393,7 @@
                         android:onClick="RH_5"
                         android:text="5. Too dry."
                         android:textColor="#C5C3C3"
-                        android:textSize="20sp" />
+                        android:textSize="18sp" />
 
                 </RadioGroup>
 

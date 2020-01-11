@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.survey_page_v2);
 
         TextView version = (TextView) findViewById(R.id.version);
-        version.setText(Integer.toString(GetVersion()));
+        version.setText(GetVersion());
 
 
         mEditTextflight_hour = (EditText) findViewById(R.id.editText_main_flight_hour);
@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public int GetVersion(){
+    public String GetVersion(){
         PackageInfo pinfo = null;
         try{
             pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
         }
         catch (Exception e){}
-        return pinfo.versionCode;
+        return pinfo.versionName;
     }
 
     public void Male(View view){
