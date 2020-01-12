@@ -6,42 +6,15 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_1080_1920">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/infopagetitle"
-        android:textColor="#FFFFFF"
-        android:textSize="26pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="259.91dp"
+        android:layout_height="59.28dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
-
-    <ScrollView
-        android:layout_width="430dp"
-        android:layout_height="610dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7">
-
-        <TextView
-            android:id="@+id/infopageexplaintext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:text="@string/infopageexplain"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </ScrollView>
+        app:srcCompat="@drawable/infomjm_0" />
 
     <TextView
         android:id="@id/version"
@@ -53,5 +26,78 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="304.53dp"
+        android:layout_height="533dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+
+        <LinearLayout
+            android:layout_width="30.5dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/infotab1"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab1_open" />
+
+            <Button
+                android:id="@+id/infotab2"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab2_close" />
+
+            <Button
+                android:id="@+id/infotab3"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab3_close" />
+
+            <Button
+                android:id="@+id/infotab4"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab4_close" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/infotab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#464646">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infotitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="@string/infotab1title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11pt" />
+
+                <TextView
+                    android:id="@+id/infotext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="@string/infotab1text"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

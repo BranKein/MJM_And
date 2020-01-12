@@ -12,7 +12,9 @@
         android:roundIcon="@drawable/mjm_ic_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustNothing"/>
         <activity android:name=".Info"/>
         <activity android:name=".Content"/>
         <activity android:name=".Title">

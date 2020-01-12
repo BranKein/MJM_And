@@ -1,6 +1,7 @@
 package com.brankein13.mjm;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
@@ -90,6 +91,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> parent) { }
         });
+    }
+
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        Intent backpage = new Intent(MainActivity.this, Content.class);
+        startActivity(backpage);
     }
 
     public String GetVersion(){

@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Content extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class Content extends AppCompatActivity {
         setContentView(R.layout.content_page);
 
         TextView version = (TextView) findViewById(R.id.version);
-        version.setText(Integer.toString(GetVersion()));
+        version.setText(GetVersion());
 
         Button info_button = (Button) findViewById(R.id.button_About);
         info_button.setOnClickListener(new View.OnClickListener() {
@@ -59,13 +60,26 @@ public class Content extends AppCompatActivity {
         });
     }
 
-    public int GetVersion(){
+    long first_time;
+    long second_time;
+    @Override
+    public void onBackPressed(){
+        second_time = System.currentTimeMillis();
+        Toast.makeText(Content.this, ""+second_time, Toast.LENGTH_SHORT).show();
+        if(second_time - first_time < 2000){
+            super.onBackPressed();
+            finishAffinity();
+        }
+        first_time = System.currentTimeMillis();
+    }
+
+    public String GetVersion(){
         PackageInfo pinfo = null;
         try{
             pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
         }
         catch (Exception e){}
-        return pinfo.versionCode;
+        return pinfo.versionName;
     }
 
 }
