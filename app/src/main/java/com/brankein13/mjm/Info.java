@@ -26,7 +26,7 @@ public class Info extends AppCompatActivity {
         title.setText(R.string.infotab1title);
         text.setText(R.string.infotab1text);
 
-        Button tab1_button = (Button) findViewById(R.id.button_About);
+        Button tab1_button = (Button) findViewById(R.id.infotab1);
         tab1_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +34,7 @@ public class Info extends AppCompatActivity {
             }
         });
 
-        Button tab2_button = (Button) findViewById(R.id.button_About);
+        Button tab2_button = (Button) findViewById(R.id.infotab2);
         tab2_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class Info extends AppCompatActivity {
             }
         });
 
-        Button tab3_button = (Button) findViewById(R.id.button_About);
+        Button tab3_button = (Button) findViewById(R.id.infotab3);
         tab3_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +50,7 @@ public class Info extends AppCompatActivity {
             }
         });
 
-        Button tab4_button = (Button) findViewById(R.id.button_About);
+        Button tab4_button = (Button) findViewById(R.id.infotab4);
         tab4_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

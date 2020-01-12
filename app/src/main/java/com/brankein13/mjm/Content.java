@@ -65,7 +65,7 @@ public class Content extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         second_time = System.currentTimeMillis();
-        Toast.makeText(Content.this, ""+second_time, Toast.LENGTH_SHORT).show();
+        Toast.makeText(Content.this, "'뒤로'버튼 한번 더 누르시면 종료됩니다.", Toast.LENGTH_SHORT).show();
         if(second_time - first_time < 2000){
             super.onBackPressed();
             finishAffinity();

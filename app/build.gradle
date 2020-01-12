@@ -7,8 +7,8 @@ android {
         applicationId "com.brankein13.mjm"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 110
-        versionName '1.10'
+        versionCode 112
+        versionName '1.12'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
