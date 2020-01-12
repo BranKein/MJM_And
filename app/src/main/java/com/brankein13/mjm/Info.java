@@ -92,41 +92,45 @@ public class Info extends AppCompatActivity {
                 text.setText(R.string.infotab1text);
                 title.setTextColor(Color.parseColor("#FFFFFF"));
                 text.setTextColor(Color.parseColor("#FFFFFF"));
-                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab1_open));
-                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab2_close));
-                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab3_close));
-                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab4_close));
+                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab11));
+                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab22));
+                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab32));
+                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab42));
                 view.setBackgroundColor(Color.parseColor("#464646"));
+                break;
             case 2:
                 title.setText(R.string.infotab2title);
                 text.setText(R.string.infotab2text);
                 title.setTextColor(Color.parseColor("#FFFFFF"));
                 text.setTextColor(Color.parseColor("#FFFFFF"));
-                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab1_close));
-                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab2_open));
-                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab3_close));
-                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab4_close));
+                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab12));
+                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab21));
+                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab32));
+                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab42));
                 view.setBackgroundColor(Color.parseColor("#5e5e5e"));
+                break;
             case 3:
                 title.setText(R.string.infotab3title);
                 text.setText(R.string.infotab3text);
                 title.setTextColor(Color.parseColor("#000000"));
                 text.setTextColor(Color.parseColor("#000000"));
-                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab1_close));
-                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab2_close));
-                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab3_open));
-                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab4_close));
+                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab12));
+                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab23));
+                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab31));
+                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab42));
                 view.setBackgroundColor(Color.parseColor("#878787"));
+                break;
             case 4:
                 title.setText(R.string.infotab4title);
                 text.setText(R.string.infotab4text);
                 title.setTextColor(Color.parseColor("#000000"));
                 text.setTextColor(Color.parseColor("#000000"));
-                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab1_close));
-                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab2_close));
-                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab3_close));
-                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab4_open));
+                tab1_button.setBackground(this.getResources().getDrawable(R.drawable.tab12));
+                tab2_button.setBackground(this.getResources().getDrawable(R.drawable.tab23));
+                tab3_button.setBackground(this.getResources().getDrawable(R.drawable.tab33));
+                tab4_button.setBackground(this.getResources().getDrawable(R.drawable.tab41));
                 view.setBackgroundColor(Color.parseColor("#bababa"));
+                break;
         }
 
     }

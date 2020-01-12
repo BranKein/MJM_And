@@ -47,25 +47,25 @@
                 android:id="@+id/infotab1"
                 android:layout_width="match_parent"
                 android:layout_height="133.23dp"
-                android:background="@drawable/tab1_open" />
+                android:background="@drawable/tab11" />
 
             <Button
                 android:id="@+id/infotab2"
                 android:layout_width="match_parent"
                 android:layout_height="133.23dp"
-                android:background="@drawable/tab2_close" />
+                android:background="@drawable/tab22" />
 
             <Button
                 android:id="@+id/infotab3"
                 android:layout_width="match_parent"
                 android:layout_height="133.23dp"
-                android:background="@drawable/tab3_close" />
+                android:background="@drawable/tab32" />
 
             <Button
                 android:id="@+id/infotab4"
                 android:layout_width="match_parent"
                 android:layout_height="133.23dp"
-                android:background="@drawable/tab4_close" />
+                android:background="@drawable/tab42" />
         </LinearLayout>
 
         <ScrollView

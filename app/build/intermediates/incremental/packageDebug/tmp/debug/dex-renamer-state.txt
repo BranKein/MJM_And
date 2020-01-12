@@ -1,4 +1,4 @@
-#Sun Jan 12 21:28:36 KST 2020
+#Sun Jan 12 22:20:03 KST 2020
 base.0=C\:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
