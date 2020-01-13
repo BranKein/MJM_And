@@ -32,7 +32,7 @@ public class Content extends AppCompatActivity {
             }
         });
 
-        Button service_button = (Button) findViewById(R.id.button_Empty);
+        Button service_button = (Button) findViewById(R.id.button_Service);
         service_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

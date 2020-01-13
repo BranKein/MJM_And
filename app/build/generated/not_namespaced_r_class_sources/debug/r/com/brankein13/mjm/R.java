@@ -3625,6 +3625,7 @@ public final class R {
     public static final int titlepage_1080_1920=0x7f080086;
     public static final int tooltip_frame_dark=0x7f080087;
     public static final int tooltip_frame_light=0x7f080088;
+    public static final int under_construction=0x7f080089;
   }
   public static final class id {
     public static final int ALT=0x7f090000;
@@ -3916,10 +3917,11 @@ public final class R {
     public static final int select_dialog_item_material=0x7f0b0039;
     public static final int select_dialog_multichoice_material=0x7f0b003a;
     public static final int select_dialog_singlechoice_material=0x7f0b003b;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b003c;
-    public static final int survey_page_v2=0x7f0b003d;
-    public static final int title_page=0x7f0b003e;
-    public static final int tooltip=0x7f0b003f;
+    public static final int service_page=0x7f0b003c;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b003d;
+    public static final int survey_page_v2=0x7f0b003e;
+    public static final int title_page=0x7f0b003f;
+    public static final int tooltip=0x7f0b0040;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0c0000;

@@ -11,7 +11,7 @@ public class Service extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.survey_page_v2);
+        setContentView(R.layout.service_page);
 
         TextView version = (TextView) findViewById(R.id.version);
         version.setText(GetVersion());
