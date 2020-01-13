@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.brankein13.mjm"
-4    android:versionCode="114"
-5    android:versionName="1.14" >
+4    android:versionCode="115"
+5    android:versionName="1.15" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
@@ -15,7 +15,7 @@
 11-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:8:5-28:19
+13-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:8:5-30:19
 14        android:allowBackup="true"
 14-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:9:9-35
 15        android:debuggable="true"
@@ -41,27 +41,33 @@
 25        <activity android:name="com.brankein13.mjm.Content" />
 25-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:19:9-44
 25-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:19:19-42
-26        <activity android:name="com.brankein13.mjm.Title" >
-26-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:9-26:20
-26-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:19-40
-27            <intent-filter>
-27-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:21:13-25:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:17-68
-28-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:17-76
-30-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <meta-data
-34-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-35            android:name="android.arch.lifecycle.VERSION"
-35-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:26:13-58
-36            android:value="27.0.0-SNAPSHOT" />
-36-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:27:13-44
-37    </application>
-38
-39</manifest>
+26        <activity
+26-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:9-21:58
+27            android:name="com.brankein13.mjm.Service"
+27-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:19-42
+28            android:windowSoftInputMode="adjustNothing" />
+28-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:21:13-56
+29        <activity android:name="com.brankein13.mjm.Title" >
+29-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:9-28:20
+29-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:19-40
+30            <intent-filter>
+30-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:17-68
+31-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:17-76
+33-->C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+38            android:name="android.arch.lifecycle.VERSION"
+38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:26:13-58
+39            android:value="27.0.0-SNAPSHOT" />
+39-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:27:13-44
+40    </application>
+41
+42</manifest>

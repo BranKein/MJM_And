@@ -3612,17 +3612,19 @@ public final class R {
     public static final int startbutton=0x7f080079;
     public static final int sur_0=0x7f08007a;
     public static final int sur_1=0x7f08007b;
-    public static final int tab1_close=0x7f08007c;
-    public static final int tab1_open=0x7f08007d;
-    public static final int tab2_close=0x7f08007e;
-    public static final int tab2_open=0x7f08007f;
-    public static final int tab3_close=0x7f080080;
-    public static final int tab3_open=0x7f080081;
-    public static final int tab4_close=0x7f080082;
-    public static final int tab4_open=0x7f080083;
-    public static final int titlepage_1080_1920=0x7f080084;
-    public static final int tooltip_frame_dark=0x7f080085;
-    public static final int tooltip_frame_light=0x7f080086;
+    public static final int tab11=0x7f08007c;
+    public static final int tab12=0x7f08007d;
+    public static final int tab21=0x7f08007e;
+    public static final int tab22=0x7f08007f;
+    public static final int tab23=0x7f080080;
+    public static final int tab31=0x7f080081;
+    public static final int tab32=0x7f080082;
+    public static final int tab33=0x7f080083;
+    public static final int tab41=0x7f080084;
+    public static final int tab42=0x7f080085;
+    public static final int titlepage_1080_1920=0x7f080086;
+    public static final int tooltip_frame_dark=0x7f080087;
+    public static final int tooltip_frame_light=0x7f080088;
   }
   public static final class id {
     public static final int ALT=0x7f090000;

@@ -17,6 +17,8 @@
             android:windowSoftInputMode="adjustNothing"/>
         <activity android:name=".Info"/>
         <activity android:name=".Content"/>
+        <activity android:name=".Service"
+            android:windowSoftInputMode="adjustNothing"/>
         <activity android:name=".Title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

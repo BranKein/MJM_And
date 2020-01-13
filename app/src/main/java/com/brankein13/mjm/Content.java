@@ -36,7 +36,7 @@ public class Content extends AppCompatActivity {
         service_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent serviceintent = new Intent(Content.this, Info.class);
+                Intent serviceintent = new Intent(Content.this, Service.class);
                 startActivity(serviceintent);
             }
         });
