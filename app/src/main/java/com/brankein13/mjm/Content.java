@@ -50,11 +50,11 @@ public class Content extends AppCompatActivity {
             }
         });
 
-        Button Us_button = (Button) findViewById(R.id.button_Feedback);
+        Button Us_button = (Button) findViewById(R.id.button_Us);
         Us_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Usintent = new Intent(Content.this, MainActivity.class);
+                Intent Usintent = new Intent(Content.this, InfoUs.class);
                 startActivity(Usintent);
             }
         });
