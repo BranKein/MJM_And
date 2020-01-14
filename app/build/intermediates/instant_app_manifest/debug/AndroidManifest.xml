@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.brankein13.mjm"
     android:targetSandboxVersion="2"
-    android:versionCode="116"
-    android:versionName="1.16" >
+    android:versionCode="117"
+    android:versionName="1.17" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -24,6 +24,7 @@
             android:windowSoftInputMode="adjustNothing" />
         <activity android:name="com.brankein13.mjm.Info" />
         <activity android:name="com.brankein13.mjm.Content" />
+        <activity android:name="com.brankein13.mjm.InfoUs" />
         <activity
             android:name="com.brankein13.mjm.Service"
             android:windowSoftInputMode="adjustNothing" />

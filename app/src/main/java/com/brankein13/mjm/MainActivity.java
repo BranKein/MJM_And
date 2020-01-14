@@ -158,7 +158,6 @@ public class MainActivity extends AppCompatActivity {
             //progressDialog = ProgressDialog.show(MainActivity.this, "Please Wait", null, true, true);
         }
 
-
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
@@ -166,7 +165,6 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.dismiss();
             Log.d(TAG, "POST response  - " + result);
         }
-
 
         @Override
         protected String doInBackground(String... params) {

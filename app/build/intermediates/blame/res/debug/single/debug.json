@@ -752,6 +752,10 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable_infous_1.gif.flat",
+        "source": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\src\\main\\res\\drawable\\infous_1.gif"
+    },
+    {
         "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -818,6 +822,10 @@
     {
         "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\580f32a7c0bbc431e4aed36a3f9a380c\\design-27.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable_infous_0.gif.flat",
+        "source": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\src\\main\\res\\drawable\\infous_0.gif"
     },
     {
         "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1726,6 +1734,10 @@
     {
         "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout_infous_page.xml.flat",
+        "source": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\src\\main\\res\\layout\\infous_page.xml"
     },
     {
         "merged": "C:\\Users\\HP\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",

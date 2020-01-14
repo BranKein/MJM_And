@@ -778,6 +778,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable infomjm_0
+drawable infous_0
+drawable infous_1
 drawable mjm_ic
 drawable mjm_ic_round
 drawable navigation_empty_icon
@@ -851,8 +853,8 @@ id blocking
 id bottom
 id buttonPanel
 id button_About
-id button_Empty
 id button_Feedback
+id button_Service
 id button_Us
 id button_main_insert
 id cancel_action
@@ -907,6 +909,8 @@ id ifRoom
 id image
 id imageView
 id imageView2
+id imageView3
+id imageView4
 id info
 id infotab
 id infotab1
@@ -1078,6 +1082,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout info_page
+layout infous_page
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

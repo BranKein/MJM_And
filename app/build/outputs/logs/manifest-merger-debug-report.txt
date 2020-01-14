@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:27.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\580f32a7c0bbc431e4aed36a3f9a380c\design-27.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c9b5e93075de3796cdf7a06c93326f02\appcompat-v7-27.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -18,20 +18,20 @@ MERGED from [com.android.support:transition:27.0.0] C:\Users\HP\.gradle\caches\t
 MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\34549c61f2bc985c80e4208bdef2726c\support-media-compat-27.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1081467481ffd01cd48ab1864aed85e4\support-compat-27.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:3:5-63
@@ -40,7 +40,7 @@ ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:8:5-30:19
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:8:5-32:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\247f998e4bdaf38a6cc6f3ef395b6cd1\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cbd00f137ffe055a54edb27e1642d0f7\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
@@ -71,26 +71,30 @@ activity#com.brankein13.mjm.Content
 ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:19:9-44
 	android:name
 		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:19:19-42
+activity#com.brankein13.mjm.InfoUs
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:9-43
+	android:name
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:19-41
 activity#com.brankein13.mjm.Service
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:9-21:58
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:21:9-23:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:20:19-42
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:13-36
 activity#com.brankein13.mjm.Title
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:22:19-40
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:19-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:17-68
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:17-68
 	android:name
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:17-76
+ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\HP\Desktop\MJM_And\app\src\main\AndroidManifest.xml
