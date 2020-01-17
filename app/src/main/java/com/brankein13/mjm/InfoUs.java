@@ -12,7 +12,7 @@ public class InfoUs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.title_page);
+        setContentView(R.layout.infous_page);
 
         TextView version = (TextView) findViewById(R.id.version);
         version.setText(GetVersion());
