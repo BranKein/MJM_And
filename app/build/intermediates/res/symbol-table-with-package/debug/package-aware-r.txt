@@ -796,9 +796,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable scrollbar_vertical_thumb
+drawable servicepage_getinfback
+drawable servicepage_prompt
+drawable servicepage_title
 drawable startbutton
 drawable sur_0
 drawable sur_1
+drawable survicepage_applybutton
 drawable tab11
 drawable tab12
 drawable tab21
@@ -845,6 +849,7 @@ id add
 id alertTitle
 id all
 id always
+id applybtn
 id async
 id auto
 id barrier
@@ -911,6 +916,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id info
 id infotab
 id infotab1
@@ -927,6 +934,9 @@ id left
 id line1
 id line3
 id linearLayout
+id linearLayout2
+id linearLayout3
+id linearLayout4
 id listMode
 id list_item
 id masked
@@ -948,9 +958,13 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
+id picker_age
+id picker_hour
 id pin
 id progress_circular
 id progress_horizontal
+id prompt_cursor
+id prompt_text
 id radio
 id radioGroup_RH
 id radioGroup_Sex
