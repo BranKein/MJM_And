@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.brankein13.mjm"
     android:targetSandboxVersion="2"
-    android:versionCode="122"
-    android:versionName="1.22" >
+    android:versionCode="201"
+    android:versionName="2.01" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="24"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
