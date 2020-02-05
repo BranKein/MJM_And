@@ -35,6 +35,7 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/service_page_male_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -43,16 +44,17 @@
                 android:onClick="Male_service"
                 android:text="Male"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
             <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/service_page_female_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:buttonTint="#000000"
                 android:onClick="Female_service"
                 android:text="Female"
                 android:textColor="#000000"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
 
         </RadioGroup>
     </LinearLayout>
@@ -69,12 +71,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.39">
 
-        <NumberPicker
-            android:id="@+id/picker_age"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal = "true"/>
+        <Spinner
+            android:id="@+id/service_page_age_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:backgroundTint="#000000"
+            android:entries="@array/age"
+            android:gravity="right"
+            android:popupElevation="16dp"
+            android:scrollbarSize="6dp"
+            android:spinnerMode="dropdown" />
 
     </LinearLayout>
 
@@ -90,10 +97,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.39">
 
-        <NumberPicker
-            android:id="@+id/picker_hour"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/service_page_hour_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:backgroundTint="#000000"
+            android:entries="@array/hour"
+            android:gravity="right"
+            android:popupElevation="16dp"
+            android:scrollbarSize="6dp"
+            android:spinnerMode="dropdown" />
 
     </LinearLayout>
 
@@ -132,8 +146,9 @@
 
         <ListView
             android:id="@+id/AIPrompt"
-            android:layout_width="286.26dp"
-            android:layout_height="237.02dp"
+            android:layout_width="280dp"
+            android:layout_height="230dp"
+            android:divider="#00000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

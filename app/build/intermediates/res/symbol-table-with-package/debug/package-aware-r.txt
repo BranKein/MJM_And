@@ -17,6 +17,7 @@ anim tooltip_enter
 anim tooltip_exit
 animator design_appbar_state_list_animator
 array age
+array hour
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -849,6 +850,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id airporturl
 id alertTitle
 id all
 id always
@@ -875,7 +877,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id consoles
+id console
 id container
 id contentPanel
 id coordinator
@@ -962,8 +964,6 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
-id picker_age
-id picker_hour
 id pin
 id progress_circular
 id progress_horizontal
@@ -995,6 +995,10 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id service_page_age_spinner
+id service_page_female_btn
+id service_page_hour_spinner
+id service_page_male_btn
 id shortcut
 id showCustom
 id showHome
@@ -1123,6 +1127,7 @@ layout support_simple_spinner_dropdown_item
 layout survey_page_v2
 layout title_page
 layout tooltip
+string IA_URL
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
