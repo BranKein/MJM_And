@@ -11,28 +11,27 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Service extends AppCompatActivity {
 
-    private NumberPicker agePicker, hourPicker;
+    public NumberPicker agePicker, hourPicker;
 
-    private Button Applybtn;
+    public Button Applybtn;
 
-    private List<String> displayValues_age, displayValues_hour;
+    public List<String> displayValues_age, displayValues_hour;
 
-    private ListView AI_Console;
-    private ArrayList<String> consoles;
-    private ArrayAdapter adapter;
+    public ListView AI_Console;
+    public ArrayList<String> consoles;
+    public ArrayAdapter adapter;
 
     public int Sex = -1;
     public int Age, Hour;
 
     private Classifier Temclassifier, RHclassifier;
-    public int numTreads = 4;
+    public int numTreads = 2;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -45,21 +44,19 @@ public class Service extends AppCompatActivity {
         displayValues_age = new ArrayList<String>();
         displayValues_hour = new ArrayList<String>();
 
-        agePicker.setMaxValue(60);
-        agePicker.setMinValue(20);
-        hourPicker.setMaxValue(0);
-        hourPicker.setMinValue(20);
-        agePicker.setValue(20);
-        hourPicker.setValue(0);
+        agePicker.setMaxValue(4);
+        agePicker.setMinValue(0);
+        hourPicker.setMaxValue(3);
+        hourPicker.setMinValue(0);
 
-        for (int i = 20; i < 61; i += 1){ displayValues_age.add(String.format("%d", i)); }
-        for (int i = 0; i < 21; i += 1){ displayValues_hour.add(String.format("%d", i)); }
+        //for (int i = 0; i < 5; i += 1){ displayValues_age.add(String.format("%d ~ %d", i * 10 + 20, i * 10 + 30)); }
+        //for (int i = 0; i < 4; i += 1){ displayValues_hour.add(String.format("%d ~ %d (hour)", i * 5, i * 5 + 5)); }
 
-        agePicker.setDisplayedValues(displayValues_age.toArray(new String[0]));
-        hourPicker.setDisplayedValues(displayValues_hour.toArray(new String[0]));
+        //agePicker.setDisplayedValues(displayValues_age.toArray(new String[0]));
+        //hourPicker.setDisplayedValues(displayValues_hour.toArray(new String[0]));
 
-        agePicker.setWrapSelectorWheel(true);
-        hourPicker.setWrapSelectorWheel(true);
+        agePicker.setWrapSelectorWheel(false);
+        hourPicker.setWrapSelectorWheel(false);
 
         TextView version = (TextView) findViewById(R.id.version);
         version.setText(GetVersion());
@@ -80,10 +77,10 @@ public class Service extends AppCompatActivity {
         });
     }
 
-    public void Male(){
+    public void Male_service(View view){
         Sex = 0;
     }
-    public void Female(){
+    public void Female_service(View view){
         Sex = 1;
     }
 

@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "com.brankein13.mjm"
         minSdkVersion 24
-        targetSdkVersion 27
-        versionCode 201
-        versionName '2.01'
+        targetSdkVersion 29
+        versionCode 203
+        versionName '2.03'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -17,6 +17,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
         }
+    }
+    aaptOptions{
+        noCompress "tflite"
     }
     subprojects{
         afterEvaluate {project->

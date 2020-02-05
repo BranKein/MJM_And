@@ -18,44 +18,44 @@
         app:srcCompat="@drawable/servicepage_getinfback" />
 
     <LinearLayout
-    android:id="@+id/linearLayout2"
-    android:layout_width="87dp"
-    android:layout_height="110dp"
-    android:orientation="vertical"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.195"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.39">
+        android:id="@+id/linearLayout2"
+        android:layout_width="87dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39">
 
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <android.support.v7.widget.AppCompatRadioButton
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:buttonTint="#000000"
-            android:onClick="Male"
-            android:text="Male"
-            android:textColor="#000000"
-            android:textSize="16sp" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <android.support.v7.widget.AppCompatRadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#000000"
-            android:onClick="Female"
-            android:text="Female"
-            android:textColor="#000000"
-            android:textSize="16sp" />
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:buttonTint="#000000"
+                android:onClick="Male_service"
+                android:text="Male"
+                android:textColor="#000000"
+                android:textSize="16sp" />
 
-    </RadioGroup>
-</LinearLayout>
+            <android.support.v7.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:onClick="Female_service"
+                android:text="Female"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -72,7 +72,9 @@
         <NumberPicker
             android:id="@+id/picker_age"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal = "true"/>
 
     </LinearLayout>
 
@@ -137,9 +139,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.8" />
-
-
-
 
     </android.support.constraint.ConstraintLayout>
 
