@@ -8,9 +8,9 @@
 
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/justconstructure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -28,7 +28,7 @@
         android:fontFamily="@font/hobostd"
         android:text="by Team KAI"
         android:textColor="#FFFFFF"
-        android:textSize="19sp"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -192,6 +192,7 @@
 
     <TextView
         android:id="@id/version"
+        android:textSize="15dp"
         android:fontFamily="@font/hobostd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

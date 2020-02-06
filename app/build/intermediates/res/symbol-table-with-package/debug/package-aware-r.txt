@@ -781,6 +781,7 @@ drawable design_snackbar_background
 drawable infomjm_0
 drawable infous_0
 drawable infous_1
+drawable justconstructure
 drawable mjm_ic
 drawable mjm_ic_round
 drawable navigation_empty_icon
@@ -815,11 +816,14 @@ drawable tab33
 drawable tab41
 drawable tab42
 drawable titlepage_1080_1920
+drawable titlepagemjm
+drawable titlepagetitle
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable under_construction
 font font
 font hobostd
+font nanumsquareroundb
 id AIPrompt
 id ALT
 id CTRL
@@ -829,6 +833,13 @@ id SHIFT
 id SYM
 id Titlebutton
 id Titlepage
+id aboutus1
+id aboutus2
+id aboutus3
+id aboutus4
+id aboutus5
+id aboutus6
+id aboutus7
 id action0
 id action_bar
 id action_bar_activity_content
@@ -918,7 +929,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView2
 id imageView3
 id imageView4
@@ -935,6 +945,7 @@ id infotitle
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id justconstructure
 id largeLabel
 id left
 id line1
@@ -1019,6 +1030,7 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id sur_0
 id survey_page_age_spinner
 id tabMode
 id tag_transition_group
@@ -1026,6 +1038,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1033,6 +1046,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titlepagemjm
+id titlepagetitle
 id top
 id topPanel
 id touch_outside
