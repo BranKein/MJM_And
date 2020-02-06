@@ -4,7 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_1080_1920">
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/justconstructure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/justconstructure" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/hobostd"
+        android:text="by Team KAI"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@id/version"
@@ -18,7 +47,7 @@
         app:layout_constraintVertical_bias="0.99" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/sur_0"
         android:layout_width="285.5dp"
         android:layout_height="102.4dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
@@ -62,6 +91,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:text="1. What was the temperature of your room?"
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -78,6 +108,7 @@
                         android:backgroundTint="#FFFFFF"
                         android:drawableTint="#FFFFFF"
                         android:gravity="right|center_vertical"
+                        android:fontFamily="@font/hobostd"
                         android:hint=" "
                         android:inputType="text"
                         android:textColor="#FFFFFF" />
@@ -86,6 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="'C"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="20sp" />
 
@@ -106,6 +138,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:text="2. What was the relative humidity of your room?"
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -121,6 +154,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#FFFFFF"
                         android:gravity="right|center_vertical"
+                        android:fontFamily="@font/hobostd"
                         android:hint=" "
                         android:inputType="text"
                         android:textColor="#FFFFFF" />
@@ -129,6 +163,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="%"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="20sp" />
 
@@ -149,6 +184,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:text="3. Please enter your age."
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -187,6 +223,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4. Please select a gender."
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -203,6 +240,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Male"
                         android:text="Male"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="20sp" />
 
@@ -212,6 +250,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Female"
                         android:text="Female"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="20sp" />
 
@@ -231,6 +270,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="5. Please write down the time of your flight so far."
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -249,12 +289,14 @@
                         android:backgroundTint="#FFFFFF"
                         android:hint="         "
                         android:inputType="text"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#FFFFFF" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="hour"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="20sp" />
 
@@ -274,6 +316,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="6. Was the temperature of the capsule hotel proper?"
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -288,6 +331,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Tem_1"
                         android:text="1. Too cold."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -297,6 +341,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Tem_2"
                         android:text="2. Little bit Cold"
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -306,6 +351,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Tem_3"
                         android:text="3. Appropriate."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -315,6 +361,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Tem_4"
                         android:text="4. Hot."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -324,6 +371,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="Tem_5"
                         android:text="5. Too hot."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -343,6 +391,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="7. Was the humidity of the capsule hotel proper?"
+                    android:fontFamily="@font/hobostd"
                     android:textColor="#C5C3C3"
                     android:textSize="22sp" />
 
@@ -357,6 +406,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="RH_1"
                         android:text="1. Too humid."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -366,6 +416,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="RH_2"
                         android:text="2. Little bit humid."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -375,6 +426,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="RH_3"
                         android:text="3. Appropriate."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -384,6 +436,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="RH_4"
                         android:text="4. Dry."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 
@@ -393,6 +446,7 @@
                         android:buttonTint="#C5C3C3"
                         android:onClick="RH_5"
                         android:text="5. Too dry."
+                        android:fontFamily="@font/hobostd"
                         android:textColor="#C5C3C3"
                         android:textSize="18sp" />
 

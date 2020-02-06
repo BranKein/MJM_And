@@ -4,112 +4,145 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_1080_1920">
+    android:background="@color/black">
+
 
     <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/justconstructure" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/hobostd"
+        android:text="by Team KAI"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.constraint.ConstraintLayout
         android:id="@+id/imageView5"
         android:layout_width="297.71dp"
         android:layout_height="221.37dp"
+        android:background="@drawable/servicepage_getinfback"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26999998"
-        app:srcCompat="@drawable/servicepage_getinfback" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.05">
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="87dp"
-        android:layout_height="110dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.195"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39">
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="87dp"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89">
 
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/service_page_male_btn"
+            <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:buttonTint="#000000"
-                android:onClick="Male_service"
-                android:text="Male"
-                android:textColor="#000000"
-                android:textSize="15sp" />
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <android.support.v7.widget.AppCompatRadioButton
-                android:id="@+id/service_page_female_btn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:buttonTint="#000000"
-                android:onClick="Female_service"
-                android:text="Female"
-                android:textColor="#000000"
-                android:textSize="15sp" />
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/service_page_male_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:buttonTint="#000000"
+                    android:onClick="Male_service"
+                    android:text="Male"
+                    android:fontFamily="@font/hobostd"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
 
-        </RadioGroup>
-    </LinearLayout>
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/service_page_female_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#000000"
+                    android:onClick="Female_service"
+                    android:text="Female"
+                    android:fontFamily="@font/hobostd"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="87dp"
-        android:layout_height="110dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39">
+            </RadioGroup>
+        </LinearLayout>
 
-        <Spinner
-            android:id="@+id/service_page_age_spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:backgroundTint="#000000"
-            android:entries="@array/age"
-            android:gravity="right"
-            android:popupElevation="16dp"
-            android:scrollbarSize="6dp"
-            android:spinnerMode="dropdown" />
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="87dp"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89">
 
-    </LinearLayout>
+            <Spinner
+                android:id="@+id/service_page_age_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:backgroundTint="#000000"
+                android:entries="@array/age"
+                android:gravity="right"
+                android:popupElevation="16dp"
+                android:scrollbarSize="6dp"
+                android:spinnerMode="dropdown" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="87dp"
-        android:layout_height="110dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39">
+        </LinearLayout>
 
-        <Spinner
-            android:id="@+id/service_page_hour_spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:backgroundTint="#000000"
-            android:entries="@array/hour"
-            android:gravity="right"
-            android:popupElevation="16dp"
-            android:scrollbarSize="6dp"
-            android:spinnerMode="dropdown" />
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="87dp"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89">
 
-    </LinearLayout>
+            <Spinner
+                android:id="@+id/service_page_hour_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:backgroundTint="#000000"
+                android:entries="@array/hour"
+                android:gravity="right"
+                android:popupElevation="16dp"
+                android:scrollbarSize="6dp"
+                android:spinnerMode="dropdown" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
 
     <Button
         android:id="@+id/applybtn"

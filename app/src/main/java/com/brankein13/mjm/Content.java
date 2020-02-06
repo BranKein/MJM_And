@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -22,6 +23,7 @@ public class Content extends AppCompatActivity {
 
         TextView version = (TextView) findViewById(R.id.version);
         version.setText(GetVersion());
+        version.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 19);
 
         Button info_button = (Button) findViewById(R.id.button_About);
         info_button.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +67,7 @@ public class Content extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         second_time = System.currentTimeMillis();
-        Toast.makeText(Content.this, "'뒤로'버튼 한번 더 누르시면 종료됩니다.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(Content.this, "App will be closed if you press one more time.", Toast.LENGTH_SHORT).show();
         if(second_time - first_time < 2000){
             super.onBackPressed();
             finishAffinity();

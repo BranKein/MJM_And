@@ -5,7 +5,58 @@
     android:id="@+id/Titlepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/titlepage_1080_1920">
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/justconstructure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/justconstructure" />
+
+    <ImageView
+        android:id="@+id/titlepagetitle"
+        android:layout_width="343.13dp"
+        android:layout_height="81.16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
+        app:srcCompat="@drawable/Titlepagetitle" />
+
+    <ImageView
+        android:id="@+id/titlepagemjm"
+        android:layout_width="233.59dp"
+        android:layout_height="371dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlepagetitle"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/titlepagemjm" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/hobostd"
+        android:text="by Team KAI"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/Titlebutton"
@@ -16,11 +67,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintTop_toBottomOf="@+id/titlepagemjm"
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:id="@+id/version"
+        android:fontFamily="@font/hobostd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

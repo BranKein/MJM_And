@@ -5,4 +5,5 @@
     android:layout_height="wrap_content"
     android:layout_marginLeft="3dp"
     android:fontFamily="@font/hobostd"
+    android:gravity="left"
     android:textColor="#FFFFFF" />
