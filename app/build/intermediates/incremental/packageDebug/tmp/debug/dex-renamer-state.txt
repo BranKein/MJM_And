@@ -1,4 +1,4 @@
-#Thu Feb 06 23:47:42 KST 2020
+#Fri Feb 07 23:49:34 KST 2020
 base.0=C\:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

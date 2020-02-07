@@ -5,35 +5,24 @@
     android:id="@+id/Titlepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:background="@drawable/background_1080_1920">
 
-    <ImageView
-        android:id="@+id/justconstructure"
-        android:layout_width="412.21dp"
-        android:layout_height="528.244dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/justconstructure" />
 
     <ImageView
         android:id="@+id/titlepagetitle"
-        android:layout_width="343.13dp"
-        android:layout_height="81.16dp"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17"
+        app:layout_constraintVertical_bias="0.13"
         app:srcCompat="@drawable/titlepagetitle" />
 
     <ImageView
         android:id="@+id/titlepagemjm"
-        android:layout_width="233.59dp"
-        android:layout_height="371dp"
+        android:layout_width="400dp"
+        android:layout_height="560dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,27 +30,10 @@
         app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/titlepagemjm" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/hobostd"
-        android:text="by Team KAI"
-        android:textColor="#FFFFFF"
-        android:textSize="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <Button
         android:id="@+id/Titlebutton"
-        android:layout_width="299.67dp"
-        android:layout_height="56.67dp"
+        android:layout_width="450dp"
+        android:layout_height="85dp"
         android:background="@drawable/startbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,4 +55,3 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99" />
 </android.support.constraint.ConstraintLayout>
-

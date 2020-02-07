@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.brankein13.mjm"
     android:targetSandboxVersion="2"
-    android:versionCode="208"
-    android:versionName="2.08" >
+    android:versionCode="209"
+    android:versionName="2.09" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -21,14 +21,24 @@
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name="com.brankein13.mjm.MainActivity"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
-        <activity android:name="com.brankein13.mjm.Info" />
-        <activity android:name="com.brankein13.mjm.Content" />
-        <activity android:name="com.brankein13.mjm.InfoUs" />
+        <activity
+            android:name="com.brankein13.mjm.Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brankein13.mjm.Content"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.brankein13.mjm.InfoUs"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.brankein13.mjm.Service"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
-        <activity android:name="com.brankein13.mjm.Title" >
+        <activity
+            android:name="com.brankein13.mjm.Title"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -23,7 +23,7 @@ public class Content extends AppCompatActivity {
 
         TextView version = (TextView) findViewById(R.id.version);
         version.setText(GetVersion());
-        version.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 19);
+        version.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
 
         Button info_button = (Button) findViewById(R.id.button_About);
         info_button.setOnClickListener(new View.OnClickListener() {

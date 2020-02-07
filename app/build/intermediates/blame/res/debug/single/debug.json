@@ -164,6 +164,10 @@
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_content_page.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\content_page.xml"
+    },
+    {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\580f32a7c0bbc431e4aed36a3f9a380c\\design-27.0.0\\res\\layout\\design_navigation_item_header.xml"
     },
@@ -234,6 +238,10 @@
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_info_page.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\info_page.xml"
     },
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_page.xml.flat",
@@ -424,6 +432,10 @@
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_survey_page_v2.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\survey_page_v2.xml"
+    },
+    {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable_survicepage_applybutton.gif.flat",
         "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\drawable\\survicepage_applybutton.gif"
     },
@@ -434,6 +446,10 @@
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\580f32a7c0bbc431e4aed36a3f9a380c\\design-27.0.0\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_infous_page.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\infous_page.xml"
     },
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -738,6 +754,10 @@
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\c9b5e93075de3796cdf7a06c93326f02\\appcompat-v7-27.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_title_page.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\title_page.xml"
     },
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1590,6 +1610,10 @@
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\6712k\\.gradle\\caches\\transforms-2\\files-2.1\\1081467481ffd01cd48ab1864aed85e4\\support-compat-27.0.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\layout-mdpi_service_page.xml.flat",
+        "source": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\src\\main\\res\\layout-mdpi\\service_page.xml"
     },
     {
         "merged": "C:\\Users\\6712k\\Desktop\\MJM_And\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",

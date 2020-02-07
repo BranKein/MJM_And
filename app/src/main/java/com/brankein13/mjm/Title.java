@@ -5,21 +5,28 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Title extends AppCompatActivity {
+    private TextView version;
+    private Button titlebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.title_page);
 
-        TextView version = (TextView) findViewById(R.id.version);
+        version = (TextView) findViewById(R.id.version);
+        version.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
         version.setText(GetVersion());
 
-        Button titlebutton = (Button) findViewById(R.id.Titlebutton);
+        titlebutton = (Button) findViewById(R.id.Titlebutton);
         titlebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

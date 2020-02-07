@@ -14,14 +14,20 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="adjustNothing"/>
-        <activity android:name=".Info"/>
-        <activity android:name=".Content"/>
-        <activity android:name=".InfoUs"/>
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Info"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Content"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InfoUs"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Service"
-            android:windowSoftInputMode="adjustNothing"/>
-        <activity android:name=".Title">
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Title"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
