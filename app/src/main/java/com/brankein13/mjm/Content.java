@@ -1,17 +1,10 @@
 package com.brankein13.mjm;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.util.TypedValue;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class Content extends AppCompatActivity {
@@ -20,10 +13,6 @@ public class Content extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_page);
-
-        TextView version = (TextView) findViewById(R.id.version);
-        version.setText(GetVersion());
-        version.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
 
         Button info_button = (Button) findViewById(R.id.button_About);
         info_button.setOnClickListener(new View.OnClickListener() {
@@ -73,15 +62,6 @@ public class Content extends AppCompatActivity {
             finishAffinity();
         }
         first_time = System.currentTimeMillis();
-    }
-
-    public String GetVersion(){
-        PackageInfo pinfo = null;
-        try{
-            pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
-        }
-        catch (Exception e){}
-        return pinfo.versionName;
     }
 
 }

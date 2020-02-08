@@ -2,24 +2,16 @@ package com.brankein13.mjm;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
-import android.widget.TextView;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -48,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.survey_page_v2);
-
-        TextView version = (TextView) findViewById(R.id.version);
-        version.setText(GetVersion());
-
 
         mEditTextflight_hour = (EditText) findViewById(R.id.editText_main_flight_hour);
 
@@ -98,15 +86,6 @@ public class MainActivity extends AppCompatActivity {
         super.onBackPressed();
         Intent backpage = new Intent(MainActivity.this, Content.class);
         startActivity(backpage);
-    }
-
-    public String GetVersion(){
-        PackageInfo pinfo = null;
-        try{
-            pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
-        }
-        catch (Exception e){}
-        return pinfo.versionName;
     }
 
     public void Male(View view){

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.brankein13.mjm"
     android:targetSandboxVersion="2"
-    android:versionCode="209"
-    android:versionName="2.09" >
+    android:versionCode="210"
+    android:versionName="2.10" >
 
     <uses-sdk
         android:minSdkVersion="24"

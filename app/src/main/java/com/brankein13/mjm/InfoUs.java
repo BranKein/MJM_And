@@ -26,8 +26,8 @@ public class InfoUs extends AppCompatActivity {
             }
         });
 
-        TextView version = (TextView) findViewById(R.id.version);
-        version.setText(GetVersion());
+        TextView version = (TextView) findViewById(R.id.aboutus7);
+        version.setText("Version : v." + GetVersion());
     }
 
     @Override

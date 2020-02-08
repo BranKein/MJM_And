@@ -1,8 +1,6 @@
 package com.brankein13.mjm;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,9 +15,6 @@ public class Info extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.info_page);
-
-        TextView version = (TextView) findViewById(R.id.version);
-        version.setText(GetVersion());
 
         TextView title = (TextView) findViewById(R.id.infotitle);
         TextView text = (TextView) findViewById(R.id.infotext);
@@ -64,15 +59,6 @@ public class Info extends AppCompatActivity {
         super.onBackPressed();
         Intent backpage = new Intent(Info.this, Content.class);
         startActivity(backpage);
-    }
-
-    public String GetVersion(){
-        PackageInfo pinfo = null;
-        try{
-            pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
-        }
-        catch (Exception e){}
-        return pinfo.versionName;
     }
 
     public void Tabchange(int tab){

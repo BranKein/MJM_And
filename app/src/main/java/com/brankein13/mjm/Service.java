@@ -1,29 +1,18 @@
 package com.brankein13.mjm;
 
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.NumberPicker;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import org.tensorflow.lite.support.common.TensorOperator;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +37,6 @@ public class Service extends AppCompatActivity {
     public int Hour = -1;
 
     @Override
-    @NonNull
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.service_page);
@@ -90,9 +78,6 @@ public class Service extends AppCompatActivity {
             }
         });
 
-        TextView version = (TextView) findViewById(R.id.version);
-        version.setText(GetVersion());
-
         consoles = new ArrayList<String>();
         consoles.add(getString(R.string.console1));
         adapter = new ArrayAdapter(this, R.layout.ai_prompt, consoles);
@@ -124,16 +109,6 @@ public class Service extends AppCompatActivity {
         startActivity(backpage);
     }
 
-    public String GetVersion(){
-        PackageInfo pinfo = null;
-        try{
-            pinfo = getPackageManager().getPackageInfo("com.brankein13.mjm", PackageManager.GET_META_DATA);
-        }
-        catch (Exception e){}
-        return pinfo.versionName;
-    }
-
-    @NonNull
     public void Prompt_Animation_Start() {
         if(Sex != -1 || Age != -1 || Hour != -1){
 
@@ -171,13 +146,12 @@ public class Service extends AppCompatActivity {
                     consoles.add(getString(R.string.console5_1));
                     adapter.notifyDataSetChanged();
                     AI_Console.setSelection(adapter.getCount() - 1);
+
+                    consoles.add(" ");
+                    adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
                 }
             }, 3000);
-
-
-            consoles.add(getString(R.string.console5_1));
-            adapter.notifyDataSetChanged();
-            AI_Console.setSelection(adapter.getCount() - 1);
 
             delayHandler.postDelayed(new Runnable() {
                 @Override
@@ -185,31 +159,16 @@ public class Service extends AppCompatActivity {
                     consoles.add(getString(R.string.console6_1_1));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_2));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_3));
-                    adapter.notifyDataSetChanged();
-
-                    consoles.add(getString(R.string.console6_4));
                     adapter.notifyDataSetChanged();
 
                     consoles.add(getString(R.string.console6_5));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_6));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_7));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_8));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_9));
-                    adapter.notifyDataSetChanged();
-
-                    consoles.add(getString(R.string.console6_10));
                     adapter.notifyDataSetChanged();
 
                     consoles.add(getString(R.string.console6_11));
@@ -265,6 +224,10 @@ public class Service extends AppCompatActivity {
                     consoles.add(getString(R.string.console5_2));
                     adapter.notifyDataSetChanged();
                     AI_Console.setSelection(adapter.getCount() - 1);
+
+                    consoles.add(" ");
+                    adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
                 }
             }, 7000);
 
@@ -276,31 +239,16 @@ public class Service extends AppCompatActivity {
                     consoles.add(getString(R.string.console6_1_2));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_2));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_3));
-                    adapter.notifyDataSetChanged();
-
-                    consoles.add(getString(R.string.console6_4));
                     adapter.notifyDataSetChanged();
 
                     consoles.add(getString(R.string.console6_5));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_6));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_7));
                     adapter.notifyDataSetChanged();
 
-                    consoles.add(getString(R.string.console6_8));
-                    adapter.notifyDataSetChanged();
-
                     consoles.add(getString(R.string.console6_9));
-                    adapter.notifyDataSetChanged();
-
-                    consoles.add(getString(R.string.console6_10));
                     adapter.notifyDataSetChanged();
 
                     consoles.add(getString(R.string.console6_11));
@@ -341,14 +289,21 @@ public class Service extends AppCompatActivity {
                     adapter.notifyDataSetChanged();
                     AI_Console.setSelection(adapter.getCount() - 1);
 
+                    consoles.add(" ");
+                    adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
+
                     consoles.add(getString(R.string.console8));
                     adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
 
                     consoles.add(showResults(Tem_results, "Tem"));
                     adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
 
                     consoles.add(showResults(RH_results, "RH"));
                     adapter.notifyDataSetChanged();
+                    AI_Console.setSelection(adapter.getCount() - 1);
 
                     consoles.add(getString(R.string.console1));
                     adapter.notifyDataSetChanged();
@@ -397,14 +352,5 @@ public class Service extends AppCompatActivity {
         }
 
         return String.format("%s_model: I recommend you %d with %.2f%% of confidence.",mode, recom, recog * 100);
-    }
-
-    public int[] ReturnArr(int[] Arr){
-        int[] arr = new int[3];
-        arr[0] = Arr[0];
-        arr[1] = Arr[1];
-        arr[2] = Arr[2];
-
-        return arr;
     }
 }
