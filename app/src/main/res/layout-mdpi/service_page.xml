@@ -20,12 +20,12 @@
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="87dp"
-            android:layout_height="110dp"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.89">
@@ -39,14 +39,14 @@
                     android:id="@+id/service_page_male_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
                     android:buttonTint="#000000"
                     android:onClick="Male_service"
                     android:text="Male"
                     android:fontFamily="@font/hobostd"
                     android:textColor="#000000"
-                    android:textSize="15sp" />
+                    android:textSize="25dp" />
 
                 <android.support.v7.widget.AppCompatRadioButton
                     android:id="@+id/service_page_female_btn"
@@ -57,15 +57,15 @@
                     android:text="Female"
                     android:fontFamily="@font/hobostd"
                     android:textColor="#000000"
-                    android:textSize="15sp" />
+                    android:textSize="25dp" />
 
             </RadioGroup>
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout3"
-            android:layout_width="87dp"
-            android:layout_height="110dp"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
 
             <Spinner
                 android:id="@+id/service_page_age_spinner"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
                 android:backgroundTint="#000000"
@@ -90,19 +90,19 @@
 
         <LinearLayout
             android:id="@+id/linearLayout4"
-            android:layout_width="87dp"
-            android:layout_height="110dp"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.965"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.89">
 
             <Spinner
                 android:id="@+id/service_page_hour_spinner"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
                 android:backgroundTint="#000000"

@@ -1011,6 +1011,7 @@ id service_page_age_spinner
 id service_page_female_btn
 id service_page_hour_spinner
 id service_page_male_btn
+id service_spinner
 id shortcut
 id showCustom
 id showHome
@@ -1137,6 +1138,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout service_page
+layout service_spinner_item
 layout support_simple_spinner_dropdown_item
 layout survey_page_v2
 layout title_page

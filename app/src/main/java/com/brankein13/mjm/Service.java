@@ -27,6 +27,7 @@ public class Service extends AppCompatActivity {
 
     public RadioButton m, f;
     public Spinner spinner_age, spinner_hour;
+    public ArrayAdapter<?> ageAdapter, hourAdapter;
 
     public Classifier Temclassifier;
     private Classifier RHclassifier;
@@ -49,6 +50,9 @@ public class Service extends AppCompatActivity {
 
 
         spinner_age = (Spinner) findViewById(R.id.service_page_age_spinner);
+        ageAdapter = ArrayAdapter.createFromResource(this, R.array.age, R.layout.service_spinner_item);
+        ageAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_age.setAdapter(ageAdapter);
         spinner_age.setSelection(0);
         Age = 0;
         spinner_age.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -64,6 +68,9 @@ public class Service extends AppCompatActivity {
         });
 
         spinner_hour = (Spinner) findViewById(R.id.service_page_hour_spinner);
+        hourAdapter = ArrayAdapter.createFromResource(this, R.array.hour, R.layout.service_spinner_item);
+        hourAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_hour.setAdapter(hourAdapter);
         spinner_hour.setSelection(0);
         Hour = 0;
         spinner_hour.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

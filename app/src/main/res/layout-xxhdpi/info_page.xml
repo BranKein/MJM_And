@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1080_1920">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="259.91dp"
+        android:layout_height="59.28dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/infomjm_0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="330dp"
+        android:layout_height="533dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+
+        <LinearLayout
+            android:layout_width="30.5dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/infotab1"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab11" />
+
+            <Button
+                android:id="@+id/infotab2"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab22" />
+
+            <Button
+                android:id="@+id/infotab3"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab32" />
+
+            <Button
+                android:id="@+id/infotab4"
+                android:layout_width="match_parent"
+                android:layout_height="133.23dp"
+                android:background="@drawable/tab42" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/infotab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#464646">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infotitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="@string/infotab1title"
+                    android:fontFamily="@font/nanumsquareroundb"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11pt" />
+
+                <TextView
+                    android:id="@+id/infotext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:text="@string/infotab1text"
+                    android:fontFamily="@font/nanumsquareroundb"
+                    android:textColor="#FFFFFF"
+                    android:textSize="9pt" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
