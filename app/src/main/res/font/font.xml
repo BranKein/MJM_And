@@ -8,4 +8,9 @@
         android:fontStyle="normal"
         android:fontWeight="400"
         android:font="@font/nanumsquareroundb"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/maplestory_bold"/>
 </font-family>

@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
                     android:text="@string/infotab1title"
-                    android:fontFamily="@font/nanumsquareroundb"
+                    android:fontFamily="@font/maplestory_bold"
                     android:textColor="#FFFFFF"
                     android:textSize="11pt" />
 
@@ -84,7 +84,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
                     android:text="@string/infotab1text"
-                    android:fontFamily="@font/nanumsquareroundb"
+                    android:fontFamily="@font/maplestory_bold"
+                    android:lineSpacingMultiplier="1.3"
                     android:textColor="#FFFFFF"
                     android:textSize="9pt" />
             </LinearLayout>
