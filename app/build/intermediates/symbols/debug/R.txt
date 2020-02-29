@@ -823,7 +823,8 @@ int drawable tooltip_frame_light 0x7f080092
 int drawable under_construction 0x7f080093
 int font font 0x7f090000
 int font hobostd 0x7f090001
-int font nanumsquareroundb 0x7f090002
+int font maplestory_bold 0x7f090002
+int font nanumsquareroundb 0x7f090003
 int id AIPrompt 0x7f0a0000
 int id ALT 0x7f0a0001
 int id CTRL 0x7f0a0002

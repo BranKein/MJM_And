@@ -824,6 +824,7 @@ drawable tooltip_frame_light
 drawable under_construction
 font font
 font hobostd
+font maplestory_bold
 font nanumsquareroundb
 id AIPrompt
 id ALT

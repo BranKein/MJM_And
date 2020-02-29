@@ -3641,7 +3641,8 @@ public final class R {
   public static final class font {
     public static final int font=0x7f090000;
     public static final int hobostd=0x7f090001;
-    public static final int nanumsquareroundb=0x7f090002;
+    public static final int maplestory_bold=0x7f090002;
+    public static final int nanumsquareroundb=0x7f090003;
   }
   public static final class id {
     public static final int AIPrompt=0x7f0a0000;
